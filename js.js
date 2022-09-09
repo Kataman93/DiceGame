@@ -12,7 +12,7 @@ let player2Result = 0
 let player1Turn = true
 
 function switchToResetBtn(x, y) {
-    if (x >= 10) {
+    if (x >= 20) {
         rollBtn.style.display = 'none'
         resetBtn.style.display = 'block'
         message.textContent = `Player ${y} Won 🥳`
